@@ -1,0 +1,40 @@
+.login-background{
+    width: 100%;
+    height: 100vh;
+
+    background-image:url('./assets/login-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+   border-style: solid;
+   border-color: white;
+   height: 300px;
+
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.login-welcome{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  color: white;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.login-textbox{
+  width: 75%;
+  border: none;
+}
