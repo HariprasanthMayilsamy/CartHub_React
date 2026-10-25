@@ -1,0 +1,14 @@
+.border-control{
+    border-style: solid;
+    border-color: black;
+}
+.red{
+    color:red;
+}
+.white{
+    color: white;
+}
+.reg-background{
+    background-color:cornflowerblue;
+    min-height: 100vh;
+}
